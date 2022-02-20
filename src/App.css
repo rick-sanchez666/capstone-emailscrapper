@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+html, body , .App, main, #root {
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+    padding: 1rem 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loginform {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-group {
+    margin-bottom: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.loginButton {
+    margin-left: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sec1{
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.sec1 a {
+    text-decoration: underline ;
+    margin-left: 2rem;
+    font-size: 24px;
+}
+.sec1 button:not(:last-child){
+    margin-left: auto;
+}
+
+.sec1 button:last-child {
+    margin: 0 2rem 0 1rem;
+}
+
+.sec2 {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 input {
+    width: 40%;
+}
+.sec2 button {
+    margin-left: 1rem;
+}
+
+.issues {
+    
+}
+
+.post {
+    margin: 0 1rem;
 }
